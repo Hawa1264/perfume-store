@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color:bisque;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+font-size: larger;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1b0c36;
+  background-color: #e5673d;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1b0c36;
+  font-weight: 500;
+}
+nav :hover{
+  background-color: aqua;
+}
+
+.hero {
+background-image: url(a\ small\ bottle\ of\ perfume\ stands\ on\ a\ brightly\ lit\ sur\ 0.jpeg); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  width: 1260px;
+  height: 700px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.product-card {
+  background-color:brown;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 130px;   
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e5673d;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
